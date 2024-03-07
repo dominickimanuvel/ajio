@@ -1,0 +1,264 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Fb launching function",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2708286300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the Fb \"https://www.facebook.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Facebook.launch_the_fb(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 258257300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click create account",
+            "match": {
+              "location": "Facebook.click_create_account()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-06T12:06:28.993Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7568904300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.browserLaunch()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Create account",
+        "description": "",
+        "id": "fb-account-creation;create-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4013782300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 747512500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter the firstname values \"Dominick\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dominick\"",
+                  "offset": 27
+                }
+              ],
+              "location": "Facebook.enter_the_firstname_values(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147158900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter the secondname values \"Dominick\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dominick\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Facebook.enter_the_secondname_values(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132070400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter the mobilenumber values \"8899990\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8899990\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Facebook.enter_the_mobilenumber_values(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148435800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter the password values \"dom@gmao\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dom@gmao\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Facebook.enter_the_password_values(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225850900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter the date values \"22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"22\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Facebook.enter_the_date_values(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79730000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter the month values \"May\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"May\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Facebook.enter_the_month_values(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92710300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter the year values \"2000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2000\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Facebook.enter_the_year_values(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6501130500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click the gender button and take screenshot \"Dominick\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dominick\"",
+                  "offset": 44
+                }
+              ],
+              "location": "Facebook.click_the_gender_button_and_take_screenshot(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3118487700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click Signup button",
+            "match": {
+              "location": "Facebook.click_signup_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2717516800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Work on Brokenlinks \"https://www.facebook.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Facebook.work_on_Brokenlinks(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@facebookin"
+          }
+        ]
+      }
+    ],
+    "name": "fb account creation",
+    "description": "",
+    "id": "fb-account-creation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/facebook.feature",
+    "tags": []
+  }
+]
